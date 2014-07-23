@@ -1,0 +1,14 @@
+message Sample {
+  required string fname     = 1;
+  required bytes data       = 2;
+  optional string software  = 3;
+  optional string platform  = 4;
+}
+
+message Result {
+  required int32 risk       = 1;
+  optional int32 score      = 2;
+  optional bool crash       = 3;
+  optional string detail    = 4;
+  optional bytes zip_reuslt = 5;
+}
